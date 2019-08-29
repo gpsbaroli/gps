@@ -1,0 +1,32 @@
+#changelist #toolbar form #from_date {height: 19px;border: 1px solid #ccc;padding: 2px 5px;margin: 0;vertical-align: top;font-size: 13px;}
+#changelist #toolbar form #to_date {height: 19px;border: 1px solid #ccc;padding: 2px 5px;margin: 0;vertical-align: top;font-size: 13px;}
+#changelist #toolbar form input[type="reset"] {border: 1px solid #ccc;padding: 2px 10px;margin: 0;vertical-align: middle;background: #fff;box-shadow: 0 -15px 20px -10px rgba(0, 0, 0, 0.15) inset;cursor: pointer;color: #333;}
+#changelist #reports_form img {vertical-align: middle;margin-right: 4px;}
+#changelist #toolbar select {
+    vertical-align: top;
+    height: 24px;
+    background: none;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0 0 0 4px;
+    margin: 0;
+        margin-left: 0px;
+    margin-left: 10px;
+}
+
+.download-link {
+    display: inline-block;
+    float: right;
+    border-radius: 20px !important;
+    padding: 4px 15px !important;
+    border: 0px !important;
+    background: #21458f !important;
+    font-weight: 400;
+    font-size: 11px !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px !important;
+    color: #fff !important;
+
+}

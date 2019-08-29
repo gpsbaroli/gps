@@ -1,0 +1,234 @@
+#header {background: #eaebec;box-shadow:5px 2px 10px #ccc;
+	height: 50px;border-top: 5px solid #21458f;}
+
+#header a:link, #header a:visited {color: #000;}
+#user-tools {font-size: 12px;color: #20458f;font-weight: bold;}
+#header a:link, #header a:visited {color: #000;font-weight: normal;}
+
+
+#content-main .module {
+	border: none;
+	margin-bottom: 30px;
+	background: #fff;
+
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 0px 0px 8px #ececec;
+}
+
+.main-listing a.section {
+	display: block;
+
+	padding: 10px;
+	color: #21458f;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	background: #eef0f5;
+}
+#content-main .model-group,#content-main .model-user,#content-main .model-branch,#content-main .model-company,#content-main .model-userdata,#content-main .model-purchase,#content-main .model-emailtemplate,#content-main .model-setting,#content-main  .model-report,#content-main .model-companyemailtemplate,
+#content-main  .model-coupon,#content-main .model-loyaltymanager,#content-main .model-profile,#content-main .model-password,#content-main .model-company-profile,#content-main .model-company-settings, #content-main .model-allergies, #content-main .model-companyrating {
+	display: inline-block;
+	padding: 20px;
+	background: #dae1ef;
+	margin: 10px;
+	color: #fff;
+	border-radius: 10px;
+	width: 150px; min-height:110px;
+	text-align: center; vertical-align:top;
+}
+#content-main  .model-report, #content-main  .model-profile, #content-main  .model-password, #content-main  .model-company-profile, #content-main  .model-company-settings{min-height:60px;}
+
+#content-main .model-group:hover,#content-main .model-user:hover,#content-main .model-branch:hover,#content-main .model-company:hover,#content-main .model-userdata:hover,#content-main .model-profile:hover,#content-main .model-password:hover,#content-main .model-company-profile:hover,#content-main .model-company-settings:hover,#content-main .model-emailtemplate:hover,#content-main .model-purchase:hover,#content-main .model-setting:hover,#content-main  .model-report:hover , #content-main .model-allergies:hover, #content-main .model-companyrating:hover {
+
+	background: #c1cee7;
+
+}
+
+
+.model-group [scope="row"] ~ div,.model-user [scope="row"] ~ div,.model-branch [scope="row"] ~ div,.model-company [scope="row"] ~ div,.model-userdata [scope="row"] ~ div,.model-profile [scope="row"] ~ div,.model-password [scope="row"] ~ div,.model-company-profile [scope="row"] ~ div,.model-company-settings [scope="row"] ~ div,.model-emailtemplate [scope="row"] ~ div,.model-purchase [scope="row"] ~ div,.model-setting [scope="row"] ~ div{ display:inline-block}
+
+
+
+.model-group [scope="row"] ,.model-user [scope="row"] ,.model-branch [scope="row"] ,.model-company [scope="row"],.model-userdata [scope="row"],.model-profile [scope="row"] ,.model-password [scope="row"] ,.model-company-profile [scope="row"] ,.model-company-settings [scope="row"] ,.model-emailtemplate [scope="row"] ,.model-purchase [scope="row"]
+,.model-setting [scope="row"]
+,.model-companyemailtemplate [scope="row"]
+,.model-coupon [scope="row"],.model-loyaltymanager [scope="row"]
+,.model-allergies [scope="row"], .model-companyrating [scope="row"]
+ {
+display:block; margin:10px 0; color:#21458f; font-size:16px;}
+
+
+
+.model-group [scope="row"] a ,.model-user [scope="row"]  a,.model-branch [scope="row"]  a,.model-company [scope="row"] a,.model-userdata [scope="row"] a,.model-profile [scope="row"] a,.model-password [scope="row"] a,.model-company-profile [scope="row"] a,.model-company-settings [scope="row"] a,.model-emailtemplate [scope="row"] a ,.model-purchase [scope="row"] a ,.model-setting [scope="row"] a ,.model-report [scope="row"] a,.model-companyemailtemplate [scope="row"] a
+,.model-coupon [scope="row"] a
+,.model-loyaltymanager [scope="row"] 
+,.model-allergies [scope="row"], .model-companyrating [scope="row"]
+a{
+color:#21458f; font-size:16px; font-weight:800;}
+
+
+.model-group [scope="row"] ~ div, .model-user [scope="row"] ~ div, .model-branch [scope="row"] ~ div, .model-company [scope="row"] ~ div, .model-userdata [scope="row"] ~ div, .model-profile [scope="row"] ~ div, .model-password [scope="row"] ~ div, .model-company-profile [scope="row"] ~ div, .model-company-settings [scope="row"] ~ div, .model-emailtemplate [scope="row"] ~ div, .model-purchase [scope="row"] ~ div, .model-setting [scope="row"] ~ div, .model-coupon [scope="row"] ~ div, .model-loyaltymanager [scope="row"] ~ div, .model-companyemailtemplate [scope="row"] ~ div {
+	display: inline-block;
+	padding: 2px 6px;
+	border-radius: 5px;
+	background: #eaf0fb;
+
+	margin-top: 10px;
+}
+.model-group [scope="row"] ~ div a,.model-user [scope="row"] ~ div a,.model-branch [scope="row"] ~ div a,.model-company [scope="row"] ~ div a,.model-userdata [scope="row"] ~ div a,.model-profile [scope="row"] ~ div a,.model-password [scope="row"] ~ div a,.model-company-profile [scope="row"] ~ div a,.model-company-settings [scope="row"] ~ div a,.model-emailtemplate [scope="row"] ~ div a,.model-purchase [scope="row"] ~ div a
+,.model-setting [scope="row"] ~ div a
+,.model-companyemailtemplate [scope="row"] ~ div a
+,.model-coupon [scope="row"] ~ div a
+,.model-loyaltymanager [scope="row"] ~ div a
+
+
+{ color:#71777a;}
+
+div.breadcrumbs {
+	background: #f8f8f8;
+	padding: 10px 40px;
+	border: none;
+	font-size: 14px;
+	color: #5e5f99;
+	text-align: left;
+	box-shadow: 0 1px 1px #ccc;
+}
+.model-group [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f0c0"; display:block; font-size:18px;}
+
+.model-user [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f2c0"; display:block; font-size:18px;}
+
+.model-branch [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f069"; display:block; font-size:18px;}
+
+.model-company [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f1ad"; display:block; font-size:18px;}
+
+.model-userdata [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f007"; display:block; font-size:18px;}
+
+.model-profile [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f007"; display:block; font-size:18px;}
+
+.model-password [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f023"; display:block; font-size:18px;}
+
+.model-company-profile [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f0f7"; display:block; font-size:18px;}
+
+.model-company-settings [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f013"; display:block; font-size:18px;}
+
+.model-emailtemplate [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f0e0"; display:block; font-size:18px;}
+
+.model-purchase [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f153"; display:block; font-size:18px;}
+
+
+.model-setting [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f085"; display:block; font-size:18px;}
+
+
+.model-report [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f15b"; display:block; font-size:18px;}
+
+.model-companyemailtemplate [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f2b7"; display:block; font-size:18px;}
+
+.model-coupon [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f02c"; display:block; font-size:18px;}
+
+.model-loyaltymanager [scope="row"] a:before{font-family:'FontAwesome';
+content:"\f235"; display:block; font-size:18px;}
+
+
+
+.module h2, .module caption, .inline-group h2 {
+	background: #eef0f5;
+	color: #20448f;
+}
+div.breadcrumbs a {
+	color: #939393;
+}
+
+.object-tools a:focus, .object-tools a:hover {
+	background-color: #21458f;
+}
+
+.button, input[type="submit"], input[type="button"], .submit-row input, a.button {
+	background: #21458f;
+
+}
+.button:active, input[type="submit"]:active, input[type="button"]:active, .button:focus, input[type="submit"]:focus, input[type="button"]:focus, .button:hover, input[type="submit"]:hover, input[type="button"]:hover {
+	background: #0a1b3c;
+}
+
+.button.default, input[type="submit"].default, .submit-row input.default {
+
+	background: #0a1b3c;
+}
+
+a:link, a:visited {
+	color: #4574d5;
+	text-decoration: none;
+}
+
+
+div.breadcrumbs a:focus, div.breadcrumbs a:hover {
+	color: #4574d5;
+}
+
+.selector-chosen h2{
+
+	background: #dae1ef !important;
+	color: #2145a7 !important;
+}
+
+.results th {
+	font-weight: 400;
+
+}
+
+.login #header {
+	height: auto;
+	padding: 5px 16px;
+	background: none;
+	box-shadow: none;
+	text-align: center;
+}
+.login #header  #branding{ float:none; display:inline-block; padding-top:10px;}
+
+
+.object-tools a:link, .object-tools a:visited {
+	display: block;
+	float: left;
+	padding: 3px 12px;
+	background: #21458f;
+	font-weight: 400;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	color: #fff;
+}
+#content form input[type="submit"],#content button[type="submit"],#content input[type="reset"]{
+	display: inline-block;
+	float: none; border-radius:20px !important;
+	padding: 4px 15px !important; border:0px !important;
+	background: #21458f !important;
+	font-weight: 400;
+	font-size: 11px !important;
+	text-transform: uppercase;
+	letter-spacing: 0.5px !important;
+	color: #fff !important;
+}
+#content  input[type="reset"]:hover,#content form input[type="submit"]:hover,#content button[type="submit"]:hover,.object-tools a:hover, .object-tools a:hover{background: #092359 !important;}
+
+.submit-row a.deletelink {border-radius: 20px !important;}
+
+
+.chosen-container .chosen-results li { padding: 5px 6px !important; }
+
+#more_profile_info{  position: absolute; left: 0; right: 0; text-align:center; color: #20458f; line-height: 22px;}
+#branding, #user-tools{ position:relative; z-index: 1 ;line-height: 22px;}
